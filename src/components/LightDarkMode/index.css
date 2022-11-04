@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-card {
+  max-width: 600px;
+  max-height: 450px;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .text-card {
+    width: 400px;
+    max-height: 500px;
+  }
+}
+.light-back-ground {
+  background-color: #ffffff;
+  color: black;
+}
+
+.dark-back-ground {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.dark-heading {
+  color: black;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.btnEl {
+  border-radius: 5px;
+  height: 35px;
+}
